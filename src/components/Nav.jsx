@@ -25,7 +25,7 @@ function Nav() {
         <Link to="/about">About</Link>
         {
           isDarkMode ?
-          <i onClick={() => setIsDarkMode(!isDarkMode)} class='text-blue-800 bx bxs-sun'></i>
+          <i onClick={() => setIsDarkMode(!isDarkMode)} class='text-yellow-400 bx bxs-sun'></i>
           :
           <i onClick={() => setIsDarkMode(!isDarkMode)} className="text-blue-800 bx bxs-moon"></i>
         }
