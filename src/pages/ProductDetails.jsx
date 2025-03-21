@@ -23,7 +23,7 @@ function ProductDetails() {
       <div className="dark:bg-gray-800">
         <div className="flex flex-col items-center justify-center w-full bg-white dark:bg-gray-800">
           <img
-            className="p-8 rounded-t-lg h-[350px]"
+            className="rounded-lg h-[350px] p-[20px] mb-[20px] bg-white"
             src={product.image}
             alt="product image"
           />
