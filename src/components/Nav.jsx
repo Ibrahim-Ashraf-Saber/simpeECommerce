@@ -18,7 +18,7 @@ function Nav() {
   }, [isDarkMode]);
 
   return (
-    <div className="px-[50px] py-[20px] flex flex-col md:flex-row justify-between items-center shadow-lg dark:bg-gray-800">
+    <div className=" px-[50px] py-[20px] flex flex-col md:flex-row justify-between items-center shadow-lg dark:bg-gray-800">
       <div className="text-3xl font-bold text-red-900 dark:text-yellow-400">E-Commerce</div>
       <div className="text-xl font-semibold flex items-center gap-[20px] dark:text-white">
         <Link to="/">Home</Link>
