@@ -44,7 +44,7 @@ function Products() {
   return (
     <div>
       {isLoading ? (
-        <div className="text-blue-800 w-full flex items-center justify-center col-span-3 gap-3 text-4xl">
+        <div className="flex items-center justify-center w-full col-span-3 gap-3 text-4xl text-blue-800">
           <i className="bx bx-loader bx-spin"></i>
           Loading...
         </div>
@@ -67,7 +67,7 @@ function Products() {
               </button>
             ))}
           </div>
-          <div className="grid lg:grid-cols-3 gap-[20px] px-[50px] my-[20px]">
+          <div className="grid lg:grid-cols-3 gap-[20px] px-[50px] py-[20px]">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
